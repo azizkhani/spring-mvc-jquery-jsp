@@ -31,7 +31,7 @@
 	 -->
 
 	<beans:bean id="viewResolver" class="org.springframework.web.servlet.view.JspTemplateViewResolver">
-		<beans:property name="prefix" value="/WEB-INF/views/"/>
+		<beans:property name="prefix" value="/views/"/>
 		<beans:property name="suffix" value=".jsp"/>
 		<beans:property name="templateName" value="common/standard"/>
 		<beans:property name="layoutParam" value="htmlFormat"/>
